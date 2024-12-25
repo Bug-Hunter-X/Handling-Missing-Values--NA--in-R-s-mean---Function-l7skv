@@ -1,0 +1,1 @@
+This repository demonstrates a common error in R when calculating the mean of a vector containing missing values. The default behavior of the `mean()` function is to return NA if any NA values are present. This can be problematic if you're expecting a numerical result. The solution showcases how to properly handle missing values using the `na.rm` argument.
